@@ -13,4 +13,9 @@
         * SQL ( _MySQL_ )
         * Mathematica ( _Wolfram Mathematica_ )
     * HTML/CSS 
-5. For example: [Moving Block](https://codepen.io/kalasikk/pen/QoEboV)     
+5. For example: [Moving Block](https://codepen.io/kalasikk/pen/QoEboV) 
+6.    *From experience I can name the delivery of laboratory work in the university (C ++, SQL), as well as wrote my site. From the ready projects I can not provide anything yet*
+7. #### Education
+    *At the moment I study at BSU, at the Mechanics and Mathematics Faculty, for the 2nd year on the speciality Computer Mathematics and Systems Analysis. Before university I finished 21 gymnasiums in Minsk.*
+8. #### English level
+    *I can calmly read the documentation in English, the level of English B1*    
