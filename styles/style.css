@@ -207,3 +207,16 @@ nav a {
 	text-transform: uppercase;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 }
+
+main {
+    flex: auto;
+}
+footer {
+    flex-shrink: 0;
+    background: #538cc6;
+    color: #fff;
+    height: 25px;
+    font-family: 'Sniglet', cursive;
+    line-height: 20px;
+    width: 100%;
+}
