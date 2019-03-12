@@ -103,3 +103,22 @@ a {
     list-style: none;
     padding: 0;
     }
+.first li {
+    padding: 10px 30px;
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%,
+        rgba(73,165,191,1) 93%, rgba(73,165,191,1) 100%);
+    border-bottom: 1px solid grey;
+    color: #506a6b;
+    font-size: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+    margin-bottom: 5px;
+}
+.first li:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%,
+    rgba(73,165,191,1) 0%, rgba(117,189,209,1) 63%, rgba(117,189,209,1) 96%);
+}
+.first li:last-child {border-bottom: none;}
+.experience {
+    margin:15px 0;
+}
