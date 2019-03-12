@@ -52,3 +52,40 @@ body,html {
     justify-content: space-around;
     align-items: center;
 }
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Sniglet', cursive;
+    font-size: 50px;
+}
+.hero-text h1{
+    padding-bottom: 50px;
+}
+.hero-text ul li{
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.hero-text ul li .effect:hover {
+    background:  #ccccff;
+    font-size: 18px;
+    
+}  
+
+a {    
+    margin: auto;
+    padding: 1rem 1.25rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #506a6b;
+    text-decoration: none;
+    position: relative;
+    transition: all .3s cubic-bezier(.2, 0, 0, 1);
+    z-index: 1;
+}  
