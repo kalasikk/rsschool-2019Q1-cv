@@ -1,0 +1,54 @@
+body,html {
+    height: 100%;
+    margin:0;
+    width: 1024px; 
+     color: #777;
+}
+.bg-my-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../attempts/my-image-2.jpg");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg-image-2 {
+    background: url('../attempts/pexels-photo-2.jpeg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image-3 {
+    background: url('../attempts/pexels-photo-3.jpeg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-1, .text-2 {
+    text-align: center;
+    background: #d9d9d9;
+    padding: 50px 40px;
+    text-align: justify;
+    font-family: 'Sniglet', cursive;
+    line-height: 20px;
+}
+
+.text-1 h2 {
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
