@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet:400,800');
+
 body,html {
     height: 100%;
     margin:0;
@@ -69,7 +71,6 @@ body,html {
 .hero-text ul li{
     font-size: 15px;
     padding: 5px;
-
 }
 
 .hero-text ul li .effect:hover {
@@ -121,4 +122,88 @@ a {
 .first li:last-child {border-bottom: none;}
 .experience {
     margin:15px 0;
+}
+
+
+.cl-effect a {
+	padding: 0 20px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.cl-effect a::before,
+.cl-effect a::after {
+	position: absolute;
+	width: 40px;
+	height: 3px;
+	background: #fff;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.4s;
+	pointer-events: none;
+}
+
+.cl-effect a::before {
+	top: -8px;
+    left: 12px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.cl-effect a::after {
+    right: 11px;
+    bottom: -10px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cl-effect a:hover::before,
+.cl-effect a:hover::after {
+	opacity: 1;
+}
+
+.cl-effect a:hover::before{
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect a:hover::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 }
